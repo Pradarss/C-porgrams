@@ -6,11 +6,11 @@ int main()
     scanf("%s",str);
     for(i = 0; str[i] != '\0'; i++)
     {
-        if( str[i] == ('a'&&'A') ||
-            str[i] == ('e'&&'E') ||
-            str[i] == ('i'&&'I') || 
-            str[i] == ('o'&&'O') || 
-            str[i] == ('u'&&'U'))
+        if( str[i] == 'a' ||
+            str[i] == 'e' ||
+            str[i] == 'i' || 
+            str[i] == 'o' || 
+            str[i] == 'u'    )
         {
             count++;
         }
